@@ -3,7 +3,7 @@
 
 <head>
     <title>@yield('title', 'weitalk - 聊聊')</title>
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <script src="/js/app.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
