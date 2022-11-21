@@ -149,9 +149,16 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'name' => [
+            'required' => '取個特別的名子吧!'
         ],
+        'email' => [
+            'required' => '需填入信箱',
+        ],
+        'password' => [
+            'required' => '須設定密碼'
+        ]
+
     ],
 
     /*
@@ -165,6 +172,10 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'name' => '名稱',
+        'email' => '信箱',
+        'password' => '密碼',
+    ],
 
 ];
